@@ -8,9 +8,9 @@ Se puede elegir entre dos idiomas, español e inglés.
 Se utilizó un Contexto, a pesar de no ser necesario en una aplicación pequeña, para pasar las variables del idioma elegido a los diferentes componentes.
 
 # Toolbox
-React Hooks
-SCSS
-Breaking Bad Api
-React Routes
-i18Next
+. React Hooks
+. SCSS
+. Breaking Bad Api
+. React Routes
+. i18Next
 

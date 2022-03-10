@@ -1,0 +1,10 @@
+{
+    "main": {
+        "back": "Volver a la lista",
+        "nickname": "alias",
+        "img": "imagen",
+        "birthday": "Nacido el",
+        "portrayed": "Interpretado por",
+        "appearance": "Aparece en las temporadas"
+    }
+}

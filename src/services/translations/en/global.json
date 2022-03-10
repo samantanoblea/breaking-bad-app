@@ -1,0 +1,10 @@
+{
+    "main": {
+        "back": "Back to list",
+        "nickname": "aka",
+        "img": "picture",
+        "birthday": "Born on",
+        "portrayed": "Played by",
+        "appearance": "Appearance in seasons"
+    }
+}

@@ -1,0 +1,66 @@
+.detail__link {
+    display:flex;
+    margin:2%;
+    &--button{
+        background-color: $rdColor;
+        padding: 10px;
+        &:hover {
+            color: $rdColor;
+            background-color: $scdnColor;
+        }
+    }
+}
+.detail__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include tablet {
+        flex-direction: row;
+        justify-content: center;
+        padding: 50px;
+    }
+    &--img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: top;
+        @include tablet {
+            height: 350px;
+            border-radius: 0px;
+            margin: 0;
+        }
+    }
+    &--container {
+        width: 360px;
+        text-align: center;
+        @include tablet {
+            width: 300px;
+            margin: 0 15px;
+            text-align: start;
+        }
+        @include desktop {
+            width: 350px;
+        }
+    }
+    &--title {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    &--text {
+        text-align: start;
+        margin: 5px 0;
+    }
+    &--list {
+        padding: 0;
+        list-style: none;
+        text-align: start;
+        margin: 3px 0;
+    }
+    &--quote {
+        font-weight: bold;
+        text-align: start;
+        margin-top: 8px;
+        box-sizing: content-box;
+    }
+}

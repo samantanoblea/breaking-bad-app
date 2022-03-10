@@ -1,0 +1,27 @@
+.header {
+    display:flex;
+    justify-content: center;
+    font-family: $mainFont;
+    font-size: 30px;
+    color: $scdnColor;
+    padding: 2%;
+    @include tablet{        
+        font-size: 50px;
+    }
+    &__select {
+        background-color: $mainColor;
+        color: $scdnColor;
+        border: none;
+        position: absolute;
+        left: 87%;
+        @include tablet{        
+            left: 93%;
+        }
+        @include desktop{        
+            left: 95%;
+        }
+    }
+    &__title {
+        margin: 0 10px;
+    }
+}
